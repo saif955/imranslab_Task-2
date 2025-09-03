@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Build & dist
+build/
+dist/
+.site/
+.coverage
+.coverage.*
+*.cover
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.dmypy.json
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Manim / Media outputs ---
+# Ignore generated media broadly, but keep source text SVGs
+media/**
+!media/texts/
+!media/texts/**
+
+# Explicitly ignore heavy video/image outputs
+media
+
+
+# Project assets
+assets/
+
+# Manim partial movie files
+**/partial_movie_files/
+
+# Bytecode caches in project
+Opening_Sequence/__pycache__/
+
+# Local Python configuration
+.python-version
+
+
