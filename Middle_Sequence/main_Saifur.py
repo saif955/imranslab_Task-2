@@ -1,6 +1,6 @@
 from manim import *
 
-class MainScene(Scene):
+class MainSceneSaifur(Scene):
     def construct(self):
         # Palette and background
         ACCENT1 = "#00FFC6"  # aqua
@@ -9,7 +9,7 @@ class MainScene(Scene):
         self.camera.background_color = "#0e1116"
 
         # Title (5s total)
-        title = Text("Member 1 — Nasemul", font_size=64, color=ACCENT1, weight=BOLD)
+        title = Text("Member 2 — Saifur", font_size=64, color=ACCENT1, weight=BOLD)
         underline = Line(LEFT * 3.2, RIGHT * 3.2).next_to(title, DOWN, buff=0.2).set_stroke(ACCENT3, 4)
         title_group = VGroup(title, underline).move_to(ORIGIN)
         self.play(FadeIn(title_group, shift=UP, run_time=1.5))
@@ -18,9 +18,9 @@ class MainScene(Scene):
 
         # Slides (3 × 23s = 69s)
         slides = [
-            "My name is Nasemul,\nand I am a Computer Science and\n Engineering major.",
-            "I have a strong passion for programming\nand enjoy spending time playing video games.",
-            "I also love building web applications\nand exploring new technologies.",
+            "My name is Saifur,\n I have completed my Bachelor's degree \n in Computer Science and Engineering.",
+            "I have a strong passion for web development, data science \n and enjoy spending time playing video games.",
+            "I also love exploring new technologies and \n learning new things.",
         ]
 
         for s in slides:
@@ -52,9 +52,9 @@ class MainScene(Scene):
         ACCENT3 = "#FF2D95"
 
         slides = [
-            "My name is Nasemul,\nand I am a Computer Science and\n Engineering major.",
-            "I have a strong passion for programming\nand enjoy spending time playing video games.",
-            "I also love building web applications\nand exploring new technologies.",
+            "My name is Saifur,\n I have completed my Bachelor's degree \n in Computer Science and Engineering.",
+            "I have a strong passion for web development, data science \n and enjoy spending time playing video games.",
+            "I also love exploring new technologies and \n learning new things.",
         ]
 
         cards = []

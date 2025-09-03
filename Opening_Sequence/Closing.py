@@ -10,7 +10,7 @@ COLOR_TEXT = "#2c2c2c"
 COLOR_BG = ["#e0e0e0", "#c0c0c0"]
 
 
-class AdvancedIntro(Scene):
+class AdvancedOutro(Scene):
     def construct(self):
         # Build
         bg = build_background(COLOR_BG)
